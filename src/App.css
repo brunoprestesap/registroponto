@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn {
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+}
+
+button {
+    cursor: pointer;
+    background-color: green;
+    text-decoration: none;
+    color: aliceblue;
+}
