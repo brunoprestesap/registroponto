@@ -21,6 +21,7 @@ function App() {
       ]).then(setModelsLoaded(true))
     }
     loadModels()
+    startVideo()
   }, [])
 
   const startVideo = () => {
@@ -77,7 +78,7 @@ function App() {
         ) : (
           <button onClick={startVideo}>Open Webcam</button>
         )}
-        
+
       </div>
 
       {captureVideo ? (
